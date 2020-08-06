@@ -88,4 +88,11 @@ for (initial condition; run while this is true; do this at the end of each loop)
     std::cout << i << std::endl;
   }
     */
+
+  // strings vs chars vs std::strings
+  char somechar = 'a';
+  char somechars[2] = "ab"; // same thing as char somechars[2] = { "a", "b" };
+  std::string a_string = "hi, i'm a string";
+  std::cout << a_string << std::endl;
+  std::cout << a_string.size() << std::endl;
 }
