@@ -2,8 +2,8 @@
 
 int main()
 {
-    while (true) {
-        std::cout << "Hang tight, the stream will start shortly!" << std::endl;
-    }
-    return 0;
+  while (true) {
+    std::cout << "Hang tight, we'll start soon!" << std::endl;
+  }
+  return 0;
 }
